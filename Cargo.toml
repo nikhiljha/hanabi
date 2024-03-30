@@ -1,0 +1,8 @@
+[workspace]
+members = [ "hanabi-bot", "hanabi-trainer", "hanabi-tui",
+    "libhanabi",
+    "libhanablive",
+    # "hanabi-trainer",
+    # "hanabi-tui",
+    # "hanabi-bot",
+]
