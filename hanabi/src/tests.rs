@@ -13,7 +13,7 @@ fn any_legal_clue(game: &mut HanabiGame) -> AnnotatedAction {
     AnnotatedAction {
         player: game.current_player,
         action: Action::Clue {
-            clue: Clue::Color(game.players[target].hand[0].card.color),
+            clue: Clue::Suit(game.players[target].hand[0].card.color),
             target,
         },
     }

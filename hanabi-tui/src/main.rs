@@ -1,4 +1,5 @@
-use hanabi::{Clue, HanabiGame, Player, Value};
+use hanabi::{Clue, HanabiGame, Player};
+use hanabi::cards::{Rank, Suit};
 
 fn main() {
     let mut game = HanabiGame::new(vec![
@@ -10,8 +11,9 @@ fn main() {
     loop {
         // print the game state
         println!("score: {}", game.score());
+        println!("stacks: {:#?}", game.stacks());
         for (i, player) in game.players().iter().enumerate() {
-            println!("player {}: {:?}", i, player.hand);
+            println!("player {}: {:?}", i, player.hand.iter().map(|c| c.card().to_string()).collect::<Vec<_>>());
         }
 
         // get user input
@@ -23,8 +25,12 @@ fn main() {
         let action = match input[0] {
             "play" => hanabi::Action::Play(input[1].parse().unwrap()),
             "discard" => hanabi::Action::Discard(input[1].parse().unwrap()),
-            "clue" => hanabi::Action::Clue {
-                clue: Clue::Value(Value::try_from(input[1]).unwrap()),
+            "rank" => hanabi::Action::Clue {
+                clue: Clue::Rank(Rank::try_from(input[1]).unwrap()),
+                target: input[2].parse().unwrap(),
+            },
+            "suit" => hanabi::Action::Clue {
+                clue: Clue::Suit(Suit::try_from(input[1]).unwrap()),
                 target: input[2].parse().unwrap(),
             },
             _ => {
