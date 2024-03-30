@@ -1,6 +1,7 @@
 [workspace]
+resolver = "2"
 members = [ "hanabi-bot", "hanabi-trainer", "hanabi-tui",
-    "libhanabi",
+    "hanabi",
     "libhanablive",
     # "hanabi-trainer",
     # "hanabi-tui",
