@@ -2,7 +2,8 @@
 resolver = "2"
 members = [ "hanabi-bot", "hanabi-trainer", "hanabi-tui",
     "hanabi",
-    "libhanablive",
+    "hanablive",
+    "hanabi-web",
     # "hanabi-trainer",
     # "hanabi-tui",
     # "hanabi-bot",
