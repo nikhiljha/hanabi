@@ -7,7 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/hanabi-trainer/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hanabi-tui/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hanabi/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libhanablive/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hanabi-web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hanablive/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

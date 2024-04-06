@@ -16,7 +16,7 @@ pub mod cards;
 #[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Player {
     pub hand: Vec<AnnotatedCard>,
-    name: String,
+    pub name: String,
 }
 
 impl Player {
@@ -291,5 +291,15 @@ impl HanabiGame {
     /// Get the stacks
     pub fn stacks(&self) -> &HashMap<Suit, Vec<Card>> {
         &self.stacks
+    }
+
+    /// Get the discard pile
+    pub fn discard_pile(&self) -> &[Card] {
+        &self.discard_pile
+    }
+
+    /// Get the history
+    pub fn history(&self) -> &[AnnotatedAction] {
+        &self.game_actions
     }
 }

@@ -133,11 +133,11 @@ impl AnnotatedCard {
         self.card
     }
 
-    pub fn color(&self) -> Suit {
+    pub fn suit(&self) -> Suit {
         self.card.suit
     }
 
-    pub fn value(&self) -> Rank {
+    pub fn rank(&self) -> Rank {
         self.card.rank
     }
 
@@ -147,8 +147,8 @@ impl AnnotatedCard {
 
     fn clue_matches(&self, clue: Clue) -> bool {
         match clue {
-            Clue::Suit(color) => self.color().eq(&color),
-            Clue::Rank(value) => self.value().eq(&value),
+            Clue::Suit(color) => self.suit().eq(&color),
+            Clue::Rank(value) => self.rank().eq(&value),
         }
     }
 
