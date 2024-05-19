@@ -1,0 +1,938 @@
+[
+  {
+    "type": "receive",
+    "data": "welcome {\"userID\":88454,\"username\":\"njha\",\"totalGames\":143,\"muted\":false,\"firstTimeUser\":false,\"settings\":{\"desktopNotification\":false,\"soundMove\":true,\"soundTimer\":true,\"keldonMode\":false,\"colorblindMode\":false,\"realLifeMode\":false,\"reverseHands\":false,\"styleNumbers\":false,\"showTimerInUntimed\":true,\"volume\":100,\"speedrunPreplay\":false,\"speedrunMode\":true,\"hyphenatedConventions\":true,\"createTableVariant\":\"Matryoshka (5 Suits)\",\"createTableTimed\":false,\"createTableTimeBaseMinutes\":2,\"createTableTimePerTurnSeconds\":20,\"createTableSpeedrun\":false,\"createTableCardCycle\":false,\"createTableDeckPlays\":false,\"createTableEmptyClues\":false,\"createTableOneExtraCard\":false,\"createTableOneLessCard\":false,\"createTableAllOrNothing\":false,\"createTableDetrimentalCharacters\":false,\"createTableMaxPlayers\":6},\"friends\":[\"adym\",\"etw\",\"girantinas\",\"oliver\",\"tiffnami\",\"trnin\",\"wet\"],\"playingAtTables\":[],\"disconSpectatingTable\":0,\"disconShadowingSeat\":0,\"randomTableName\":\"Shauna anxiously daffier\",\"shuttingDown\":false,\"datetimeShutdownInit\":\"0001-01-01T00:00:00Z\",\"maintenanceMode\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":88454,\"name\":\"njha\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "userList [{\"userID\":75671,\"name\":\"maddy\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":true},{\"userID\":68050,\"name\":\"Magesrook\",\"status\":2,\"tableID\":15027,\"hyphenated\":false,\"inactive\":false},{\"userID\":22353,\"name\":\"Reiman\",\"status\":2,\"tableID\":15028,\"hyphenated\":false,\"inactive\":false},{\"userID\":74724,\"name\":\"yagami_black\",\"status\":2,\"tableID\":15020,\"hyphenated\":true,\"inactive\":false},{\"userID\":70237,\"name\":\"Cocorifle\",\"status\":2,\"tableID\":15020,\"hyphenated\":true,\"inactive\":false},{\"userID\":10507,\"name\":\"MKQ\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false},{\"userID\":86934,\"name\":\"morganz_\",\"status\":2,\"tableID\":15027,\"hyphenated\":false,\"inactive\":false},{\"userID\":91520,\"name\":\"Sulugy\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false},{\"userID\":91466,\"name\":\"ashishla\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false},{\"userID\":86969,\"name\":\"Qwertygamer\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":true},{\"userID\":24679,\"name\":\"Simon\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false},{\"userID\":76885,\"name\":\"RandomGuyJCI\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":true},{\"userID\":90522,\"name\":\"yui_yukihira\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false},{\"userID\":90466,\"name\":\"mets14\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false},{\"userID\":33580,\"name\":\"Bjuuti\",\"status\":2,\"tableID\":15028,\"hyphenated\":false,\"inactive\":false},{\"userID\":88089,\"name\":\"darr\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false},{\"userID\":24923,\"name\":\"Kyeudo\",\"status\":2,\"tableID\":15027,\"hyphenated\":false,\"inactive\":false},{\"userID\":91398,\"name\":\"WarsawPact\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":true},{\"userID\":43784,\"name\":\"newsun\",\"status\":2,\"tableID\":14583,\"hyphenated\":true,\"inactive\":false},{\"userID\":68193,\"name\":\"Tailz\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":true},{\"userID\":29740,\"name\":\"newduke\",\"status\":2,\"tableID\":14583,\"hyphenated\":true,\"inactive\":false},{\"userID\":75662,\"name\":\"gsymon\",\"status\":2,\"tableID\":15024,\"hyphenated\":true,\"inactive\":false},{\"userID\":55989,\"name\":\"miksu\",\"status\":2,\"tableID\":15028,\"hyphenated\":false,\"inactive\":false},{\"userID\":85421,\"name\":\"ElenaDhynho\",\"status\":2,\"tableID\":15020,\"hyphenated\":true,\"inactive\":false},{\"userID\":88219,\"name\":\"morefriends\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":true},{\"userID\":80261,\"name\":\"str8tsknacker\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":true},{\"userID\":79457,\"name\":\"Cadenza\",\"status\":2,\"tableID\":14583,\"hyphenated\":true,\"inactive\":false},{\"userID\":2000,\"name\":\"HuHu\",\"status\":2,\"tableID\":15024,\"hyphenated\":false,\"inactive\":false},{\"userID\":89959,\"name\":\"Jakub123\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false},{\"userID\":78442,\"name\":\"will-bot2\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false},{\"userID\":78102,\"name\":\"will-bot1\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false},{\"userID\":27131,\"name\":\"arataya87\",\"status\":2,\"tableID\":15027,\"hyphenated\":false,\"inactive\":false},{\"userID\":32037,\"name\":\"HelanaAshryvr\",\"status\":3,\"tableID\":15020,\"hyphenated\":false,\"inactive\":false},{\"userID\":4737,\"name\":\"TimeHoodie\",\"status\":2,\"tableID\":15020,\"hyphenated\":true,\"inactive\":false},{\"userID\":88454,\"name\":\"njha\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false},{\"userID\":24919,\"name\":\"cooper\",\"status\":2,\"tableID\":15027,\"hyphenated\":false,\"inactive\":false},{\"userID\":85500,\"name\":\"will-bot4\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false},{\"userID\":90039,\"name\":\"submachine\",\"status\":3,\"tableID\":14583,\"hyphenated\":true,\"inactive\":false}]"
+  },
+  {
+    "type": "receive",
+    "data": "tableList [{\"id\":15027,\"name\":\"Lucid (#2)\",\"passwordProtected\":true,\"joined\":false,\"numPlayers\":5,\"owned\":false,\"running\":true,\"variant\":\"Dark Rainbow (6 Suits)\",\"options\":{\"numPlayers\":5,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Dark Rainbow (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":true,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":7,\"players\":[\"morganz_\",\"Magesrook\",\"cooper\",\"Kyeudo\",\"arataya87\"],\"spectators\":[],\"maxPlayers\":6},{\"id\":15028,\"name\":\"Actaeon innersole Federal (#13)\",\"passwordProtected\":true,\"joined\":false,\"numPlayers\":3,\"owned\":false,\"running\":true,\"variant\":\"Gray Pink (5 Suits)\",\"options\":{\"numPlayers\":3,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Gray Pink (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":36,\"players\":[\"Bjuuti\",\"Reiman\",\"miksu\"],\"spectators\":[],\"maxPlayers\":5},{\"id\":14583,\"name\":\"lobsters coffin logout\",\"passwordProtected\":false,\"joined\":false,\"numPlayers\":3,\"owned\":false,\"running\":true,\"variant\":\"Light Pink \\u0026 Cocoa Rainbow (6 Suits)\",\"options\":{\"numPlayers\":3,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Light Pink \\u0026 Cocoa Rainbow (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":67,\"players\":[\"newsun\",\"newduke\",\"Cadenza\"],\"spectators\":[{\"name\":\"submachine\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}],\"maxPlayers\":5},{\"id\":15020,\"name\":\"unsettles photosynthesized preemptive (#2)\",\"passwordProtected\":false,\"joined\":false,\"numPlayers\":4,\"owned\":false,\"running\":true,\"variant\":\"Brown-Fives \\u0026 Brown (6 Suits)\",\"options\":{\"numPlayers\":4,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Brown-Fives \\u0026 Brown (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":27,\"players\":[\"Cocorifle\",\"TimeHoodie\",\"ElenaDhynho\",\"yagami_black\"],\"spectators\":[{\"name\":\"HelanaAshryvr\",\"shadowingPlayerIndex\":1,\"shadowingPlayerUsername\":\"TimeHoodie\"}],\"maxPlayers\":5},{\"id\":15024,\"name\":\"veterinarians Bantu gentries (#10)\",\"passwordProtected\":true,\"joined\":false,\"numPlayers\":2,\"owned\":false,\"running\":true,\"variant\":\"Rainbow-Fives \\u0026 Dark Pink (6 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Rainbow-Fives \\u0026 Dark Pink (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":77,\"players\":[\"HuHu\",\"gsymon\"],\"spectators\":[],\"maxPlayers\":6}]"
+  },
+  {
+    "type": "receive",
+    "data": "chatList {\"list\":[{\"msg\":\"The level summary for the H-Group: https://hanabi.github.io/learning-path/#level-summary\",\"who\":\"__server\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-02T08:30:43.368411Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"LFG lvl 3..10\",\"who\":\"ape3000\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-02T17:24:52.276187Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"+2 no var any level\",\"who\":\"Fireheart\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-02T17:29:08.015839Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"and any can join\",\"who\":\"Fireheart\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-02T17:29:21.827279Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"anyone up 4 a no variant gme?\",\"who\":\"Agent12\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-03T05:49:57.007215Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"HANAB-CON 2024 in Houston\",\"who\":\"blortjr.\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T01:47:20.642075Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"anyone up for a 3-5 person game?\",\"who\":\"pepe_s\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T05:46:35.811556Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"sadfasdfsa\",\"who\":\"sadfasd\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T11:09:44.795619Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"asdfasd\",\"who\":\"sadfasd\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T11:09:46.162296Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"asdfgdasrdfwe4zadxfsd\",\"who\":\"sadfasd\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T11:09:48.484118Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"aafdsadfasdf\",\"who\":\"sadfasd\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T11:09:50.146804Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"asdf\",\"who\":\"sadfasd\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T11:09:50.489678Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"asd\",\"who\":\"sadfasd\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T11:09:50.757999Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"f\",\"who\":\"sadfasd\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T11:09:51.063676Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"df\",\"who\":\"sadfasd\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T11:09:51.362995Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"asd\",\"who\":\"sadfasd\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T11:09:51.645402Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"f\",\"who\":\"sadfasd\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T11:09:51.9172Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"1 needed for L1 game if anyone can :)\",\"who\":\"NNewQuark\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T12:37:14.548457Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\":( been kicked out\",\"who\":\"Ussel\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T12:46:05.553774Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"https://www.hanabi-con.com/ huh that\\u0026#39;s a real thing, wow\",\"who\":\"bluenovember\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:22:05.953341Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"wait a second...\",\"who\":\"bluenovember\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:22:19.048955Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"\\u0026#34;Cosplay Chess\\u0026#34; Now that is to my liking\",\"who\":\"stuurm\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:23:43.816887Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"I can\\u0026#39;t. My dad said if I ever dressed for pawn he\\u0026#39;d disown me.\",\"who\":\"bluenovember\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:24:20.019627Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"Do not let your dreams be memes!\",\"who\":\"stuurm\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:24:38.159828Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"But but all my dreams are memes\",\"who\":\"bluenovember\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:24:49.680899Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"aahhh....checkmate I guess\",\"who\":\"stuurm\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:25:12.039802Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"https://i.imgflip.com/8lkqx2.jpg\",\"who\":\"bluenovember\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:25:29.648141Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"https://tenor.com/view/ill-be-a-knight-knight-brave-confident-lets-do-this-gif-15183538\",\"who\":\"springiest\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:26:49.928078Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"It looks like we have multiple participiants!\",\"who\":\"stuurm\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:29:38.796873Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"I was legit excited for cards, but all I got was fake fireworks :/\",\"who\":\"cynas\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:33:21.327437Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"I\\u0026#39;m meeting up with @nitrate6262 in person on the weekend. Does that count as a convention?\",\"who\":\"bluenovember\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:56:16.325199Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"Also if I stop turning up in tables it\\u0026#39;s because he\\u0026#39;s murdered me and sold my organs, in pay back for all the times I gave clues that were lies\",\"who\":\"bluenovember\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T18:56:42.297555Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"Lies or bluffs?  I, too, enjoy my organs INSIDE my body.\",\"who\":\"cynas\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T19:00:19.975282Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"it was nice knowing you blue\",\"who\":\"darr\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T19:25:16.121553Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"Nice! Yes, it does. It\\u0026#39;s called 2p conv 😄\",\"who\":\"elo_moni\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T19:27:14.670115Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"/missing\",\"who\":\"jieship\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T20:14:24.396676Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"You can only perform this command while in a game.\",\"who\":\"__server\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-04T20:14:24.82693Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"Hi, I would like to play a game. How can I do that?\",\"who\":\"ashishla\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-04T20:30:46.48032Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"@stuurm @springiest @.mangopie @ilikeeelst Thanks for the game, sorry if I made some mistakes. Would love to play again\",\"who\":\"ashishla\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T20:58:54.023067Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"Mistakes are part of the game. You are welcome to join again!\",\"who\":\"stuurm\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T21:07:58.232917Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"That\\u0026#39;s so sweet.  Most people quit Hanabi in disgust long before they ever get close to the number of mistakes I make\",\"who\":\"cynas\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-04T21:47:58.76076Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"/help\",\"who\":\"M1n3c4rt\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-05T16:12:31.423385Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"lvl4 game anybody? 👀\",\"who\":\"chengmoniu\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-06T04:36:09.56501Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"/path\",\"who\":\"Begun\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-06T13:45:26.661794Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"The level summary for the H-Group: https://hanabi.github.io/learning-path/#level-summary\",\"who\":\"__server\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-06T13:45:26.937382Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"One more for a beginner game?\",\"who\":\"Kyle\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-07T21:16:04.721874Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"just started playing Stardew Valley with my wife and stumbled across a forum post where somebody tagged Zamiel said he was putting together some kind of guide and i looked at the profile pic and it\\u0026#39;s the same person 😮\",\"who\":\"russ75\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-08T05:39:03.123687Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"@loveontop, do you want to play?\",\"who\":\"Gingy120\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-08T08:08:11.286044Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"Zam did some stardew speed runs I believe\",\"who\":\"adrone\",\"discord\":true,\"server\":false,\"datetime\":\"2024-04-08T12:28:50.193915Z\",\"room\":\"lobby\",\"recipient\":\"\"},{\"msg\":\"The server has successfully started at: Mon Apr 08 14:12:50 UTC 2024 (c936808df2b78aa4a24be7b0d622fceb75393f17)\",\"who\":\"__server\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-08T14:12:50.282482Z\",\"room\":\"lobby\",\"recipient\":\"\"}],\"unread\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "chat {\"msg\":\"Find teammates and discuss strategy in the \\u003ca href=\\\"https://discord.gg/FADvkJp\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"\\u003eDiscord chat\\u003c/a\\u003e.\",\"who\":\"\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-08T18:53:51.082662958Z\",\"room\":\"lobby\",\"recipient\":\"\"}"
+  },
+  {
+    "type": "receive",
+    "data": "chat {\"msg\":\"[Server Notice] January 27th, 2024 - There are new Critical Fours variant combinations. (Thanks Ramanujan)\",\"who\":\"\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-08T18:53:51.082749731Z\",\"room\":\"lobby\",\"recipient\":\"\"}"
+  },
+  {
+    "type": "receive",
+    "data": "gameHistory [{\"id\":1141196,\"options\":{\"numPlayers\":3,\"startingPlayer\":0,\"variantID\":2047,\"variantName\":\"Matryoshka \\u0026 Prism (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p3v2047s2\",\"score\":30,\"numTurns\":72,\"endCondition\":1,\"datetimeStarted\":\"2024-04-08T06:20:50.058635Z\",\"datetimeFinished\":\"2024-04-08T06:43:18.427194Z\",\"numGamesOnThisSeed\":2,\"playerNames\":[\"etw\",\"njha\",\"oliver\"],\"incrementNumGames\":false,\"tags\":\"bottom deck win\"},{\"id\":1141193,\"options\":{\"numPlayers\":3,\"startingPlayer\":0,\"variantID\":2047,\"variantName\":\"Matryoshka \\u0026 Prism (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p3v2047s1\",\"score\":0,\"numTurns\":2,\"endCondition\":4,\"datetimeStarted\":\"2024-04-08T06:19:44.677869Z\",\"datetimeFinished\":\"2024-04-08T06:20:46.750333Z\",\"numGamesOnThisSeed\":4,\"playerNames\":[\"etw\",\"njha\",\"oliver\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141191,\"options\":{\"numPlayers\":4,\"startingPlayer\":0,\"variantID\":193,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p4v193s8\",\"score\":25,\"numTurns\":52,\"endCondition\":1,\"datetimeStarted\":\"2024-04-08T05:55:14.350466Z\",\"datetimeFinished\":\"2024-04-08T06:13:02.394274Z\",\"numGamesOnThisSeed\":2,\"playerNames\":[\"etw\",\"girantinas\",\"njha\",\"oliver\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141187,\"options\":{\"numPlayers\":4,\"startingPlayer\":0,\"variantID\":193,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p4v193s7\",\"score\":0,\"numTurns\":9,\"endCondition\":4,\"datetimeStarted\":\"2024-04-08T05:50:00.135704Z\",\"datetimeFinished\":\"2024-04-08T05:54:24.618478Z\",\"numGamesOnThisSeed\":2,\"playerNames\":[\"etw\",\"girantinas\",\"njha\",\"oliver\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141184,\"options\":{\"numPlayers\":4,\"startingPlayer\":0,\"variantID\":193,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p4v193s6\",\"score\":25,\"numTurns\":52,\"endCondition\":1,\"datetimeStarted\":\"2024-04-08T05:26:27.09844Z\",\"datetimeFinished\":\"2024-04-08T05:46:30.393649Z\",\"numGamesOnThisSeed\":3,\"playerNames\":[\"etw\",\"girantinas\",\"njha\",\"oliver\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141180,\"options\":{\"numPlayers\":4,\"startingPlayer\":0,\"variantID\":193,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p4v193s5\",\"score\":24,\"numTurns\":56,\"endCondition\":1,\"datetimeStarted\":\"2024-04-08T05:08:03.631922Z\",\"datetimeFinished\":\"2024-04-08T05:25:00.806462Z\",\"numGamesOnThisSeed\":3,\"playerNames\":[\"etw\",\"girantinas\",\"njha\",\"oliver\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141177,\"options\":{\"numPlayers\":4,\"startingPlayer\":0,\"variantID\":193,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p4v193s4\",\"score\":0,\"numTurns\":7,\"endCondition\":4,\"datetimeStarted\":\"2024-04-08T05:04:57.224439Z\",\"datetimeFinished\":\"2024-04-08T05:07:58.918974Z\",\"numGamesOnThisSeed\":6,\"playerNames\":[\"etw\",\"girantinas\",\"njha\",\"oliver\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141175,\"options\":{\"numPlayers\":4,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p4v0s81\",\"score\":25,\"numTurns\":55,\"endCondition\":1,\"datetimeStarted\":\"2024-04-08T04:43:03.656711Z\",\"datetimeFinished\":\"2024-04-08T05:03:10.588732Z\",\"numGamesOnThisSeed\":98,\"playerNames\":[\"etw\",\"girantinas\",\"njha\",\"oliver\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141169,\"options\":{\"numPlayers\":4,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p4v0s80\",\"score\":25,\"numTurns\":48,\"endCondition\":1,\"datetimeStarted\":\"2024-04-08T04:27:57.272295Z\",\"datetimeFinished\":\"2024-04-08T04:38:45.335379Z\",\"numGamesOnThisSeed\":97,\"playerNames\":[\"etw\",\"girantinas\",\"njha\",\"oliver\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141167,\"options\":{\"numPlayers\":3,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p3v0s178\",\"score\":0,\"numTurns\":1,\"endCondition\":4,\"datetimeStarted\":\"2024-04-08T04:27:32.576888Z\",\"datetimeFinished\":\"2024-04-08T04:27:47.834132Z\",\"numGamesOnThisSeed\":78,\"playerNames\":[\"etw\",\"girantinas\",\"njha\"],\"incrementNumGames\":false,\"tags\":\"\"}]"
+  },
+  {
+    "type": "receive",
+    "data": "gameHistoryFriends [{\"id\":1141231,\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p2v0s551\",\"score\":25,\"numTurns\":64,\"endCondition\":1,\"datetimeStarted\":\"2024-04-08T09:51:07.35923Z\",\"datetimeFinished\":\"2024-04-08T09:52:48.914552Z\",\"numGamesOnThisSeed\":61,\"playerNames\":[\"etw\",\"will-bot4\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141230,\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p2v0s550\",\"score\":0,\"numTurns\":12,\"endCondition\":4,\"datetimeStarted\":\"2024-04-08T09:50:46.789267Z\",\"datetimeFinished\":\"2024-04-08T09:51:05.199777Z\",\"numGamesOnThisSeed\":62,\"playerNames\":[\"etw\",\"will-bot4\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141229,\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p2v0s549\",\"score\":0,\"numTurns\":34,\"endCondition\":4,\"datetimeStarted\":\"2024-04-08T09:49:45.392698Z\",\"datetimeFinished\":\"2024-04-08T09:50:44.455814Z\",\"numGamesOnThisSeed\":58,\"playerNames\":[\"etw\",\"will-bot4\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141228,\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p2v0s548\",\"score\":0,\"numTurns\":22,\"endCondition\":5,\"datetimeStarted\":\"2024-04-08T09:49:01.739978Z\",\"datetimeFinished\":\"2024-04-08T09:49:41.84766Z\",\"numGamesOnThisSeed\":60,\"playerNames\":[\"etw\",\"will-bot4\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141227,\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p2v0s547\",\"score\":23,\"numTurns\":63,\"endCondition\":1,\"datetimeStarted\":\"2024-04-08T09:47:09.128935Z\",\"datetimeFinished\":\"2024-04-08T09:48:55.403798Z\",\"numGamesOnThisSeed\":58,\"playerNames\":[\"etw\",\"will-bot4\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141226,\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p2v0s546\",\"score\":25,\"numTurns\":60,\"endCondition\":1,\"datetimeStarted\":\"2024-04-08T09:38:11.720675Z\",\"datetimeFinished\":\"2024-04-08T09:40:11.82146Z\",\"numGamesOnThisSeed\":58,\"playerNames\":[\"etw\",\"will-bot4\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141225,\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p2v0s545\",\"score\":0,\"numTurns\":36,\"endCondition\":5,\"datetimeStarted\":\"2024-04-08T09:37:14.14153Z\",\"datetimeFinished\":\"2024-04-08T09:38:08.591732Z\",\"numGamesOnThisSeed\":62,\"playerNames\":[\"etw\",\"will-bot4\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141224,\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p2v0s544\",\"score\":24,\"numTurns\":66,\"endCondition\":1,\"datetimeStarted\":\"2024-04-08T09:35:32.542377Z\",\"datetimeFinished\":\"2024-04-08T09:37:07.230843Z\",\"numGamesOnThisSeed\":58,\"playerNames\":[\"etw\",\"will-bot4\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141221,\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p2v0s543\",\"score\":0,\"numTurns\":8,\"endCondition\":4,\"datetimeStarted\":\"2024-04-08T09:35:08.282597Z\",\"datetimeFinished\":\"2024-04-08T09:35:30.183835Z\",\"numGamesOnThisSeed\":58,\"playerNames\":[\"etw\",\"will-bot4\"],\"incrementNumGames\":false,\"tags\":\"\"},{\"id\":1141220,\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"No Variant\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p2v0s542\",\"score\":0,\"numTurns\":33,\"endCondition\":5,\"datetimeStarted\":\"2024-04-08T09:33:44.943531Z\",\"datetimeFinished\":\"2024-04-08T09:34:56.283415Z\",\"numGamesOnThisSeed\":62,\"playerNames\":[\"etw\",\"will-bot4\"],\"incrementNumGames\":false,\"tags\":\"\"}]"
+  },
+  {
+    "type": "receive",
+    "data": "userLeft {\"userID\":91466}"
+  },
+  {
+    "type": "send",
+    "data": "getName"
+  },
+  {
+    "type": "send",
+    "data": "setting {\"name\":\"createTableSpeedrun\",\"setting\":\"true\"}"
+  },
+  {
+    "type": "send",
+    "data": "tableCreate {\"name\":\"Shauna anxiously daffier\",\"options\":{\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"password\":\"boba\",\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15029,\"name\":\"Shauna anxiously daffier\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":1,\"owned\":true,\"running\":false,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":0,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":0,\"players\":[\"njha\"],\"spectators\":[],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "game {\"tableID\":15029,\"name\":\"Shauna anxiously daffier\",\"owner\":88454,\"players\":[{\"index\":0,\"name\":\"njha\",\"you\":true,\"present\":true,\"stats\":{\"numGames\":105,\"variant\":{\"numGames\":10,\"bestScores\":[{\"numPlayers\":2,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":3,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":4,\"score\":25,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":5,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":6,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false}],\"averageScore\":24.666666666666668,\"numStrikeouts\":7}}}],\"options\":{\"numPlayers\":0,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"passwordProtected\":true,\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":88454,\"name\":\"njha\",\"status\":1,\"tableID\":15029,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "joined {\"tableID\":15029}"
+  },
+  {
+    "type": "receive",
+    "data": "chatList {\"list\":[{\"msg\":\"\\u003cstrong\\u003enjha\\u003c/strong\\u003e created the table.\",\"who\":\"\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-08T18:54:18.639825053Z\",\"room\":\"table15029\",\"recipient\":\"\"}],\"unread\":1}"
+  },
+  {
+    "type": "receive",
+    "data": "pregameSpectators {\"tableID\":15029,\"spectators\":[]}"
+  },
+  {
+    "type": "send",
+    "data": "chatTyping {\"tableID\":15029}"
+  },
+  {
+    "type": "send",
+    "data": "chatTyping {\"tableID\":15029}"
+  },
+  {
+    "type": "send",
+    "data": "chatTyping {\"tableID\":15029}"
+  },
+  {
+    "type": "send",
+    "data": "chatTyping {\"tableID\":15029}"
+  },
+  {
+    "type": "send",
+    "data": "chatPM {\"msg\":\"/join boba\",\"recipient\":\"will-bot1\",\"room\":\"table15029\"}"
+  },
+  {
+    "type": "receive",
+    "data": "chat {\"msg\":\"/join boba\",\"who\":\"njha\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-08T18:54:32.600957576Z\",\"room\":\"\",\"recipient\":\"will-bot1\"}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15029,\"name\":\"Shauna anxiously daffier\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":2,\"owned\":true,\"running\":false,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":0,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":0,\"players\":[\"njha\",\"will-bot1\"],\"spectators\":[],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "game {\"tableID\":15029,\"name\":\"Shauna anxiously daffier\",\"owner\":88454,\"players\":[{\"index\":0,\"name\":\"njha\",\"you\":true,\"present\":true,\"stats\":{\"numGames\":105,\"variant\":{\"numGames\":10,\"bestScores\":[{\"numPlayers\":2,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":3,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":4,\"score\":25,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":5,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":6,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false}],\"averageScore\":24.666666666666668,\"numStrikeouts\":7}}},{\"index\":1,\"name\":\"will-bot1\",\"you\":false,\"present\":true,\"stats\":{\"numGames\":1685,\"variant\":{\"numGames\":0,\"bestScores\":[{\"numPlayers\":2,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":3,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":4,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":5,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":6,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false}],\"averageScore\":0,\"numStrikeouts\":0}}}],\"options\":{\"numPlayers\":0,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"passwordProtected\":true,\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":78102,\"name\":\"will-bot1\",\"status\":1,\"tableID\":15029,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "chat {\"msg\":\"will-bot1 joined the game.\",\"who\":\"\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-08T18:54:33.289466101Z\",\"room\":\"table15029\",\"recipient\":\"\"}"
+  },
+  {
+    "type": "send",
+    "data": "chatRead {\"tableID\":15029}"
+  },
+  {
+    "type": "receive",
+    "data": "pregameSpectators {\"tableID\":15029,\"spectators\":[]}"
+  },
+  {
+    "type": "send",
+    "data": "tableStart {\"tableID\":15029,\"intendedPlayers\":[\"njha\",\"will-bot1\"]}"
+  },
+  {
+    "type": "receive",
+    "data": "tableStart {\"tableID\":15029,\"replay\":false}"
+  },
+  {
+    "type": "send",
+    "data": "getGameInfo1 {\"tableID\":15029}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15029,\"name\":\"Shauna anxiously daffier\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":2,\"owned\":true,\"running\":true,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":0,\"players\":[\"will-bot1\",\"njha\"],\"spectators\":[],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":78102,\"name\":\"will-bot1\",\"status\":2,\"tableID\":15029,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":88454,\"name\":\"njha\",\"status\":2,\"tableID\":15029,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "init {\"tableID\":15029,\"playerNames\":[\"will-bot1\",\"njha\"],\"ourPlayerIndex\":1,\"spectating\":false,\"shadowing\":false,\"replay\":false,\"databaseID\":-1,\"hasCustomSeed\":false,\"seed\":\"p2v193s1\",\"datetimeStarted\":\"2024-04-08T18:54:36.999797998Z\",\"datetimeFinished\":\"0001-01-01T00:00:00Z\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"characterAssignments\":[],\"characterMetadata\":[],\"sharedReplay\":false,\"sharedReplayLeader\":\"njha\",\"sharedReplaySegment\":0,\"sharedReplayEffMod\":0,\"paused\":false,\"pausePlayerIndex\":-1,\"pauseQueued\":false}"
+  },
+  {
+    "type": "send",
+    "data": "getGameInfo2 {\"tableID\":15029}"
+  },
+  {
+    "type": "receive",
+    "data": "gameActionList {\"tableID\":15029,\"list\":[{\"type\":\"draw\",\"playerIndex\":0,\"order\":0,\"suitIndex\":3,\"rank\":1},{\"type\":\"draw\",\"playerIndex\":0,\"order\":1,\"suitIndex\":0,\"rank\":3},{\"type\":\"draw\",\"playerIndex\":0,\"order\":2,\"suitIndex\":2,\"rank\":2},{\"type\":\"draw\",\"playerIndex\":0,\"order\":3,\"suitIndex\":3,\"rank\":4},{\"type\":\"draw\",\"playerIndex\":0,\"order\":4,\"suitIndex\":1,\"rank\":1},{\"type\":\"draw\",\"playerIndex\":1,\"order\":5,\"suitIndex\":-1,\"rank\":-1},{\"type\":\"draw\",\"playerIndex\":1,\"order\":6,\"suitIndex\":-1,\"rank\":-1},{\"type\":\"draw\",\"playerIndex\":1,\"order\":7,\"suitIndex\":-1,\"rank\":-1},{\"type\":\"draw\",\"playerIndex\":1,\"order\":8,\"suitIndex\":-1,\"rank\":-1},{\"type\":\"draw\",\"playerIndex\":1,\"order\":9,\"suitIndex\":-1,\"rank\":-1}]}"
+  },
+  {
+    "type": "send",
+    "data": "loaded {\"tableID\":15029}"
+  },
+  {
+    "type": "receive",
+    "data": "connected {\"tableID\":15029,\"list\":[false,false]}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-1021,0],\"activePlayerIndex\":0,\"timeTaken\":1021}"
+  },
+  {
+    "type": "receive",
+    "data": "noteListPlayer {\"tableID\":15029,\"notes\":[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]}"
+  },
+  {
+    "type": "receive",
+    "data": "voteChange {\"vote\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "spectators {\"tableID\":15029,\"spectators\":[]}"
+  },
+  {
+    "type": "receive",
+    "data": "chatList {\"list\":[{\"msg\":\"\\u003cstrong\\u003enjha\\u003c/strong\\u003e created the table.\",\"who\":\"\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-08T18:54:18.639825053Z\",\"room\":\"table15029\",\"recipient\":\"\"},{\"msg\":\"will-bot1 joined the game.\",\"who\":\"\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-08T18:54:33.289466101Z\",\"room\":\"table15029\",\"recipient\":\"\"}],\"unread\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "connected {\"tableID\":15029,\"list\":[false,true]}"
+  },
+  {
+    "type": "receive",
+    "data": "connected {\"tableID\":15029,\"list\":[true,true]}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[0,0],\"activePlayerIndex\":0,\"timeTaken\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"clue\",\"clue\":{\"type\":1,\"value\":5},\"giver\":0,\"list\":[8,9],\"target\":1,\"turn\":0}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":7,\"score\":0,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":1,\"currentPlayerIndex\":1}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-2686,0],\"activePlayerIndex\":1,\"timeTaken\":0}"
+  },
+  {
+    "type": "send",
+    "data": "action {\"tableID\":15029,\"type\":3,\"target\":0,\"value\":1}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"clue\",\"clue\":{\"type\":1,\"value\":1},\"giver\":1,\"list\":[0,4],\"target\":0,\"turn\":1}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":6,\"score\":0,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":2,\"currentPlayerIndex\":0}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-2687,-2436],\"activePlayerIndex\":0,\"timeTaken\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"play\",\"playerIndex\":0,\"order\":4,\"suitIndex\":1,\"rank\":1}}"
+  },
+  {
+    "type": "receive",
+    "data": "tableProgress {\"tableID\":15029,\"progress\":4}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"draw\",\"playerIndex\":0,\"order\":10,\"suitIndex\":1,\"rank\":2}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":6,\"score\":1,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":3,\"currentPlayerIndex\":1}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-2871,-2436],\"activePlayerIndex\":1,\"timeTaken\":0}"
+  },
+  {
+    "type": "send",
+    "data": "note {\"tableID\":15029,\"order\":5,\"note\":\" [cm]\"}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15020,\"name\":\"unsettles photosynthesized preemptive (#2)\",\"passwordProtected\":false,\"joined\":false,\"numPlayers\":4,\"owned\":false,\"running\":true,\"variant\":\"Brown-Fives \\u0026 Brown (6 Suits)\",\"options\":{\"numPlayers\":4,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Brown-Fives \\u0026 Brown (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":27,\"players\":[\"Cocorifle\",\"TimeHoodie\",\"ElenaDhynho\",\"yagami_black\"],\"spectators\":[{\"name\":\"HelanaAshryvr\",\"shadowingPlayerIndex\":1,\"shadowingPlayerUsername\":\"TimeHoodie\"},{\"name\":\"Simon\",\"shadowingPlayerIndex\":1,\"shadowingPlayerUsername\":\"TimeHoodie\"}],\"maxPlayers\":5}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":24679,\"name\":\"Simon\",\"status\":3,\"tableID\":15020,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "send",
+    "data": "action {\"tableID\":15029,\"type\":2,\"target\":0,\"value\":1}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"clue\",\"clue\":{\"type\":0,\"value\":1},\"giver\":1,\"list\":[0,2,3,10],\"target\":0,\"turn\":3}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":5,\"score\":1,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":4,\"currentPlayerIndex\":0}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-2872,-11998],\"activePlayerIndex\":0,\"timeTaken\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"clue\",\"clue\":{\"type\":1,\"value\":3},\"giver\":0,\"list\":[5],\"target\":1,\"turn\":4}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":4,\"score\":1,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":5,\"currentPlayerIndex\":1}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-3240,-11998],\"activePlayerIndex\":1,\"timeTaken\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":91466,\"name\":\"ashishla\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "tableGone {\"tableID\":15024}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":2000,\"name\":\"HuHu\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":75662,\"name\":\"gsymon\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":2000,\"name\":\"HuHu\",\"status\":5,\"tableID\":15024,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":75662,\"name\":\"gsymon\",\"status\":5,\"tableID\":15024,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15024,\"name\":\"veterinarians Bantu gentries (#10) (Game #1141356)\",\"passwordProtected\":true,\"joined\":false,\"numPlayers\":2,\"owned\":false,\"running\":true,\"variant\":\"Rainbow-Fives \\u0026 Dark Pink (6 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Rainbow-Fives \\u0026 Dark Pink (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":true,\"progress\":100,\"players\":[\"HuHu\",\"gsymon\"],\"spectators\":[{\"name\":\"HuHu\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"},{\"name\":\"gsymon\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":24679,\"name\":\"Simon\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15020,\"name\":\"unsettles photosynthesized preemptive (#2)\",\"passwordProtected\":false,\"joined\":false,\"numPlayers\":4,\"owned\":false,\"running\":true,\"variant\":\"Brown-Fives \\u0026 Brown (6 Suits)\",\"options\":{\"numPlayers\":4,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Brown-Fives \\u0026 Brown (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":27,\"players\":[\"Cocorifle\",\"TimeHoodie\",\"ElenaDhynho\",\"yagami_black\"],\"spectators\":[{\"name\":\"HelanaAshryvr\",\"shadowingPlayerIndex\":1,\"shadowingPlayerUsername\":\"TimeHoodie\"}],\"maxPlayers\":5}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15020,\"name\":\"unsettles photosynthesized preemptive (#2)\",\"passwordProtected\":false,\"joined\":false,\"numPlayers\":4,\"owned\":false,\"running\":true,\"variant\":\"Brown-Fives \\u0026 Brown (6 Suits)\",\"options\":{\"numPlayers\":4,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Brown-Fives \\u0026 Brown (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":27,\"players\":[\"Cocorifle\",\"TimeHoodie\",\"ElenaDhynho\",\"yagami_black\"],\"spectators\":[{\"name\":\"HelanaAshryvr\",\"shadowingPlayerIndex\":1,\"shadowingPlayerUsername\":\"TimeHoodie\"},{\"name\":\"Simon\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}],\"maxPlayers\":5}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":24679,\"name\":\"Simon\",\"status\":3,\"tableID\":15020,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "send",
+    "data": "action {\"tableID\":15029,\"type\":1,\"target\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"discard\",\"playerIndex\":1,\"order\":6,\"suitIndex\":1,\"rank\":4,\"failed\":false}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"draw\",\"playerIndex\":1,\"order\":11,\"suitIndex\":-1,\"rank\":-1}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":5,\"score\":1,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":6,\"currentPlayerIndex\":0}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-3241,-25268],\"activePlayerIndex\":0,\"timeTaken\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"play\",\"playerIndex\":0,\"order\":10,\"suitIndex\":1,\"rank\":2}}"
+  },
+  {
+    "type": "receive",
+    "data": "tableProgress {\"tableID\":15029,\"progress\":8}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"draw\",\"playerIndex\":0,\"order\":12,\"suitIndex\":2,\"rank\":2}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":5,\"score\":2,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":7,\"currentPlayerIndex\":1}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-3565,-25269],\"activePlayerIndex\":1,\"timeTaken\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":24679,\"name\":\"Simon\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15020,\"name\":\"unsettles photosynthesized preemptive (#2)\",\"passwordProtected\":false,\"joined\":false,\"numPlayers\":4,\"owned\":false,\"running\":true,\"variant\":\"Brown-Fives \\u0026 Brown (6 Suits)\",\"options\":{\"numPlayers\":4,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Brown-Fives \\u0026 Brown (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":27,\"players\":[\"Cocorifle\",\"TimeHoodie\",\"ElenaDhynho\",\"yagami_black\"],\"spectators\":[{\"name\":\"HelanaAshryvr\",\"shadowingPlayerIndex\":1,\"shadowingPlayerUsername\":\"TimeHoodie\"}],\"maxPlayers\":5}"
+  },
+  {
+    "type": "send",
+    "data": "action {\"tableID\":15029,\"type\":0,\"target\":5}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"play\",\"playerIndex\":1,\"order\":5,\"suitIndex\":1,\"rank\":3}}"
+  },
+  {
+    "type": "receive",
+    "data": "tableProgress {\"tableID\":15029,\"progress\":12}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"draw\",\"playerIndex\":1,\"order\":13,\"suitIndex\":-1,\"rank\":-1}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":5,\"score\":3,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":8,\"currentPlayerIndex\":0}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-3565,-27420],\"activePlayerIndex\":0,\"timeTaken\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"clue\",\"clue\":{\"type\":1,\"value\":4},\"giver\":0,\"list\":[7,11],\"target\":1,\"turn\":8}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":4,\"score\":3,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":9,\"currentPlayerIndex\":1}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-3897,-27420],\"activePlayerIndex\":1,\"timeTaken\":0}"
+  },
+  {
+    "type": "send",
+    "data": "action {\"tableID\":15029,\"type\":1,\"target\":13}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"discard\",\"playerIndex\":1,\"order\":13,\"suitIndex\":2,\"rank\":1,\"failed\":false}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"draw\",\"playerIndex\":1,\"order\":14,\"suitIndex\":-1,\"rank\":-1}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":5,\"score\":3,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":10,\"currentPlayerIndex\":0}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-3897,-35862],\"activePlayerIndex\":0,\"timeTaken\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"discard\",\"playerIndex\":0,\"order\":0,\"suitIndex\":3,\"rank\":1,\"failed\":false}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"draw\",\"playerIndex\":0,\"order\":15,\"suitIndex\":1,\"rank\":2}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":6,\"score\":3,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":11,\"currentPlayerIndex\":1}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-4015,-35863],\"activePlayerIndex\":1,\"timeTaken\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15029,\"name\":\"Shauna anxiously daffier\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":2,\"owned\":true,\"running\":true,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":12,\"players\":[\"will-bot1\",\"njha\"],\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "spectators {\"tableID\":15029,\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}]}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":91466,\"name\":\"ashishla\",\"status\":3,\"tableID\":15029,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "send",
+    "data": "action {\"tableID\":15029,\"type\":0,\"target\":14}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"strike\",\"num\":1,\"turn\":11,\"order\":14}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"discard\",\"playerIndex\":1,\"order\":14,\"suitIndex\":2,\"rank\":4,\"failed\":true}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"draw\",\"playerIndex\":1,\"order\":16,\"suitIndex\":-1,\"rank\":-1}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":6,\"score\":3,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":12,\"currentPlayerIndex\":0}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-4015,-40406],\"activePlayerIndex\":0,\"timeTaken\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"discard\",\"playerIndex\":0,\"order\":1,\"suitIndex\":0,\"rank\":3,\"failed\":false}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"draw\",\"playerIndex\":0,\"order\":17,\"suitIndex\":1,\"rank\":1}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":7,\"score\":3,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":13,\"currentPlayerIndex\":1}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15029,\"times\":[-4188,-40406],\"activePlayerIndex\":1,\"timeTaken\":0}"
+  },
+  {
+    "type": "send",
+    "data": "tableVoteForTermination {\"tableID\":15029}"
+  },
+  {
+    "type": "receive",
+    "data": "voteChange {\"vote\":true}"
+  },
+  {
+    "type": "send",
+    "data": "tableVoteForTermination {\"tableID\":15029}"
+  },
+  {
+    "type": "receive",
+    "data": "voteChange {\"vote\":false}"
+  },
+  {
+    "type": "send",
+    "data": "tableTerminate {\"tableID\":15029}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"status\",\"clues\":7,\"score\":3,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"gameOver\",\"endCondition\":4,\"playerIndex\":1,\"votes\":null}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"turn\",\"num\":14,\"currentPlayerIndex\":-1}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15029,\"action\":{\"type\":\"playerTimes\",\"playerTimes\":[-4188,-40406],\"duration\":53660}}"
+  },
+  {
+    "type": "receive",
+    "data": "tableGone {\"tableID\":15029}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":78102,\"name\":\"will-bot1\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":88454,\"name\":\"njha\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "gameHistory [{\"id\":1141357,\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"seed\":\"p2v193s1\",\"score\":0,\"numTurns\":14,\"endCondition\":4,\"datetimeStarted\":\"2024-04-08T18:54:36.999797998Z\",\"datetimeFinished\":\"2024-04-08T18:55:30.66038388Z\",\"numGamesOnThisSeed\":62,\"playerNames\":[\"njha\",\"will-bot1\"],\"incrementNumGames\":true,\"tags\":\"\"}]"
+  },
+  {
+    "type": "receive",
+    "data": "connected {\"tableID\":15029,\"list\":[true,true]}"
+  },
+  {
+    "type": "receive",
+    "data": "cardIdentities {\"tableID\":15029,\"cardIdentities\":[{\"suitIndex\":3,\"rank\":1},{\"suitIndex\":0,\"rank\":3},{\"suitIndex\":2,\"rank\":2},{\"suitIndex\":3,\"rank\":4},{\"suitIndex\":1,\"rank\":1},{\"suitIndex\":1,\"rank\":3},{\"suitIndex\":1,\"rank\":4},{\"suitIndex\":1,\"rank\":4},{\"suitIndex\":4,\"rank\":5},{\"suitIndex\":2,\"rank\":5},{\"suitIndex\":1,\"rank\":2},{\"suitIndex\":4,\"rank\":4},{\"suitIndex\":2,\"rank\":2},{\"suitIndex\":2,\"rank\":1},{\"suitIndex\":2,\"rank\":4},{\"suitIndex\":1,\"rank\":2},{\"suitIndex\":1,\"rank\":1},{\"suitIndex\":1,\"rank\":1},{\"suitIndex\":4,\"rank\":3},{\"suitIndex\":4,\"rank\":4},{\"suitIndex\":0,\"rank\":1},{\"suitIndex\":4,\"rank\":2},{\"suitIndex\":1,\"rank\":3},{\"suitIndex\":4,\"rank\":2},{\"suitIndex\":4,\"rank\":1},{\"suitIndex\":0,\"rank\":1},{\"suitIndex\":3,\"rank\":2},{\"suitIndex\":0,\"rank\":5},{\"suitIndex\":3,\"rank\":2},{\"suitIndex\":3,\"rank\":3},{\"suitIndex\":0,\"rank\":4},{\"suitIndex\":0,\"rank\":2},{\"suitIndex\":2,\"rank\":1},{\"suitIndex\":4,\"rank\":3},{\"suitIndex\":2,\"rank\":1},{\"suitIndex\":2,\"rank\":3},{\"suitIndex\":1,\"rank\":5},{\"suitIndex\":0,\"rank\":4},{\"suitIndex\":0,\"rank\":1},{\"suitIndex\":4,\"rank\":1},{\"suitIndex\":3,\"rank\":5},{\"suitIndex\":3,\"rank\":1},{\"suitIndex\":3,\"rank\":1},{\"suitIndex\":4,\"rank\":1},{\"suitIndex\":3,\"rank\":4},{\"suitIndex\":0,\"rank\":2},{\"suitIndex\":2,\"rank\":4},{\"suitIndex\":2,\"rank\":3},{\"suitIndex\":0,\"rank\":3},{\"suitIndex\":3,\"rank\":3}]}"
+  },
+  {
+    "type": "receive",
+    "data": "finishOngoingGame {\"tableID\":15029,\"databaseID\":1141357,\"sharedReplayLeader\":\"njha\"}"
+  },
+  {
+    "type": "send",
+    "data": "replayAction {\"tableID\":15029,\"type\":0,\"segment\":14}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":91466,\"name\":\"ashishla\",\"status\":5,\"tableID\":15029,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":78102,\"name\":\"will-bot1\",\"status\":5,\"tableID\":15029,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":88454,\"name\":\"njha\",\"status\":5,\"tableID\":15029,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "noteList {\"tableID\":15029,\"notes\":[{\"name\":\"will-bot1\",\"notes\":[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"],\"isSpectator\":false},{\"name\":\"njha\",\"notes\":[\"\",\"\",\"\",\"\",\"\",\"[cm]\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"],\"isSpectator\":false},{\"name\":\"ashishla\",\"notes\":[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"],\"isSpectator\":true},{\"name\":\"will-bot1\",\"notes\":[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"],\"isSpectator\":true},{\"name\":\"njha\",\"notes\":[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"],\"isSpectator\":true}]}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15029,\"name\":\"Shauna anxiously daffier (Game #1141357)\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":2,\"owned\":true,\"running\":true,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":true,\"progress\":100,\"players\":[\"will-bot1\",\"njha\"],\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"},{\"name\":\"will-bot1\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"},{\"name\":\"njha\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "spectators {\"tableID\":15029,\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"},{\"name\":\"will-bot1\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"},{\"name\":\"njha\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}]}"
+  },
+  {
+    "type": "receive",
+    "data": "replaySegment {\"tableID\":15029,\"segment\":14}"
+  },
+  {
+    "type": "send",
+    "data": "tableRestart {\"tableID\":15029,\"hidePregame\":true}"
+  },
+  {
+    "type": "receive",
+    "data": "boot {\"TableID\":15029}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":78102,\"name\":\"will-bot1\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "chatTyping {\"tableID\":15029,\"name\":\"will-bot1\",\"typing\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15029,\"name\":\"Shauna anxiously daffier (Game #1141357)\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":2,\"owned\":true,\"running\":true,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":true,\"progress\":100,\"players\":[\"will-bot1\",\"njha\"],\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"},{\"name\":\"njha\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "spectators {\"tableID\":15029,\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"},{\"name\":\"njha\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}]}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":88454,\"name\":\"njha\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15029,\"name\":\"Shauna anxiously daffier (Game #1141357)\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":2,\"owned\":true,\"running\":true,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":true,\"progress\":100,\"players\":[\"will-bot1\",\"njha\"],\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":91466,\"name\":\"ashishla\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "tableGone {\"tableID\":15029}"
+  },
+  {
+    "type": "receive",
+    "data": "game {\"tableID\":15030,\"name\":\"Shauna anxiously daffier (#2)\",\"owner\":88454,\"players\":[{\"index\":0,\"name\":\"njha\",\"you\":true,\"present\":true,\"stats\":{\"numGames\":105,\"variant\":{\"numGames\":10,\"bestScores\":[{\"numPlayers\":2,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":3,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":4,\"score\":25,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":5,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":6,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false}],\"averageScore\":24.666666666666668,\"numStrikeouts\":7}}}],\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"passwordProtected\":true,\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":88454,\"name\":\"njha\",\"status\":1,\"tableID\":15030,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "joined {\"tableID\":15030}"
+  },
+  {
+    "type": "receive",
+    "data": "chatList {\"list\":[{\"msg\":\"\\u003cstrong\\u003enjha\\u003c/strong\\u003e created the table.\",\"who\":\"\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-08T18:55:34.466621992Z\",\"room\":\"table15030\",\"recipient\":\"\"}],\"unread\":1}"
+  },
+  {
+    "type": "receive",
+    "data": "game {\"tableID\":15030,\"name\":\"Shauna anxiously daffier (#2)\",\"owner\":88454,\"players\":[{\"index\":0,\"name\":\"njha\",\"you\":true,\"present\":true,\"stats\":{\"numGames\":105,\"variant\":{\"numGames\":10,\"bestScores\":[{\"numPlayers\":2,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":3,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":4,\"score\":25,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":5,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":6,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false}],\"averageScore\":24.666666666666668,\"numStrikeouts\":7}}},{\"index\":1,\"name\":\"will-bot1\",\"you\":false,\"present\":true,\"stats\":{\"numGames\":1685,\"variant\":{\"numGames\":0,\"bestScores\":[{\"numPlayers\":2,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":3,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":4,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":5,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false},{\"numPlayers\":6,\"score\":0,\"modifier\":0,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false}],\"averageScore\":0,\"numStrikeouts\":0}}}],\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"passwordProtected\":true,\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":78102,\"name\":\"will-bot1\",\"status\":1,\"tableID\":15030,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "chat {\"msg\":\"will-bot1 joined the game.\",\"who\":\"\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-08T18:55:35.205383309Z\",\"room\":\"table15030\",\"recipient\":\"\"}"
+  },
+  {
+    "type": "send",
+    "data": "chatRead {\"tableID\":15030}"
+  },
+  {
+    "type": "receive",
+    "data": "tableStart {\"tableID\":15030,\"replay\":false}"
+  },
+  {
+    "type": "send",
+    "data": "getGameInfo1 {\"tableID\":15030}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15030,\"name\":\"Shauna anxiously daffier (#2)\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":2,\"owned\":true,\"running\":true,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":0,\"players\":[\"will-bot1\",\"njha\"],\"spectators\":[],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":78102,\"name\":\"will-bot1\",\"status\":2,\"tableID\":15030,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":88454,\"name\":\"njha\",\"status\":2,\"tableID\":15030,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15030,\"name\":\"Shauna anxiously daffier (#2)\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":2,\"owned\":true,\"running\":true,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":0,\"players\":[\"will-bot1\",\"njha\"],\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":91466,\"name\":\"ashishla\",\"status\":3,\"tableID\":15030,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "init {\"tableID\":15030,\"playerNames\":[\"will-bot1\",\"njha\"],\"ourPlayerIndex\":1,\"spectating\":false,\"shadowing\":false,\"replay\":false,\"databaseID\":-1,\"hasCustomSeed\":false,\"seed\":\"p2v193s2\",\"datetimeStarted\":\"2024-04-08T18:55:35.723813739Z\",\"datetimeFinished\":\"0001-01-01T00:00:00Z\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"characterAssignments\":[],\"characterMetadata\":[],\"sharedReplay\":false,\"sharedReplayLeader\":\"njha\",\"sharedReplaySegment\":0,\"sharedReplayEffMod\":0,\"paused\":false,\"pausePlayerIndex\":-1,\"pauseQueued\":false}"
+  },
+  {
+    "type": "send",
+    "data": "getGameInfo2 {\"tableID\":15030}"
+  },
+  {
+    "type": "receive",
+    "data": "gameActionList {\"tableID\":15030,\"list\":[{\"type\":\"draw\",\"playerIndex\":0,\"order\":0,\"suitIndex\":2,\"rank\":5},{\"type\":\"draw\",\"playerIndex\":0,\"order\":1,\"suitIndex\":3,\"rank\":1},{\"type\":\"draw\",\"playerIndex\":0,\"order\":2,\"suitIndex\":0,\"rank\":4},{\"type\":\"draw\",\"playerIndex\":0,\"order\":3,\"suitIndex\":4,\"rank\":3},{\"type\":\"draw\",\"playerIndex\":0,\"order\":4,\"suitIndex\":1,\"rank\":3},{\"type\":\"draw\",\"playerIndex\":1,\"order\":5,\"suitIndex\":-1,\"rank\":-1},{\"type\":\"draw\",\"playerIndex\":1,\"order\":6,\"suitIndex\":-1,\"rank\":-1},{\"type\":\"draw\",\"playerIndex\":1,\"order\":7,\"suitIndex\":-1,\"rank\":-1},{\"type\":\"draw\",\"playerIndex\":1,\"order\":8,\"suitIndex\":-1,\"rank\":-1},{\"type\":\"draw\",\"playerIndex\":1,\"order\":9,\"suitIndex\":-1,\"rank\":-1}]}"
+  },
+  {
+    "type": "send",
+    "data": "loaded {\"tableID\":15030}"
+  },
+  {
+    "type": "receive",
+    "data": "connected {\"tableID\":15030,\"list\":[false,false]}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15030,\"times\":[-858,0],\"activePlayerIndex\":0,\"timeTaken\":858}"
+  },
+  {
+    "type": "receive",
+    "data": "noteListPlayer {\"tableID\":15030,\"notes\":[\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\"]}"
+  },
+  {
+    "type": "receive",
+    "data": "voteChange {\"vote\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "spectators {\"tableID\":15030,\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}]}"
+  },
+  {
+    "type": "receive",
+    "data": "chatList {\"list\":[{\"msg\":\"\\u003cstrong\\u003enjha\\u003c/strong\\u003e created the table.\",\"who\":\"\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-08T18:54:18.639825053Z\",\"room\":\"table15030\",\"recipient\":\"\"},{\"msg\":\"will-bot1 joined the game.\",\"who\":\"\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-08T18:54:33.289466101Z\",\"room\":\"table15030\",\"recipient\":\"\"},{\"msg\":\"The game has been restarted (from game \\u003ca href=\\\"https://hanab.live/replay/1141357\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"\\u003e#1141357\\u003c/a\\u003e).\",\"who\":\"\",\"discord\":false,\"server\":true,\"datetime\":\"2024-04-08T18:55:35.735134737Z\",\"room\":\"table15030\",\"recipient\":\"\"}],\"unread\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "connected {\"tableID\":15030,\"list\":[false,true]}"
+  },
+  {
+    "type": "receive",
+    "data": "connected {\"tableID\":15030,\"list\":[true,true]}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15030,\"times\":[0,0],\"activePlayerIndex\":0,\"timeTaken\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15030,\"action\":{\"type\":\"clue\",\"clue\":{\"type\":1,\"value\":2},\"giver\":0,\"list\":[5,7,9],\"target\":1,\"turn\":0}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15030,\"action\":{\"type\":\"status\",\"clues\":7,\"score\":0,\"maxScore\":25}}"
+  },
+  {
+    "type": "receive",
+    "data": "gameAction {\"tableID\":15030,\"action\":{\"type\":\"turn\",\"num\":1,\"currentPlayerIndex\":1}}"
+  },
+  {
+    "type": "receive",
+    "data": "clock {\"tableID\":15030,\"times\":[-2635,0],\"activePlayerIndex\":1,\"timeTaken\":0}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":91466,\"name\":\"ashishla\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "chatTyping {\"tableID\":15030,\"name\":\"ashishla\",\"typing\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15030,\"name\":\"Shauna anxiously daffier (#2)\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":2,\"owned\":true,\"running\":true,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":0,\"players\":[\"will-bot1\",\"njha\"],\"spectators\":[],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "spectators {\"tableID\":15030,\"spectators\":[]}"
+  },
+  {
+    "type": "receive",
+    "data": "userInactive {\"userID\":10507,\"inactive\":true}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":90917,\"name\":\"Gromzadira\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":14583,\"name\":\"lobsters coffin logout\",\"passwordProtected\":false,\"joined\":false,\"numPlayers\":3,\"owned\":false,\"running\":true,\"variant\":\"Light Pink \\u0026 Cocoa Rainbow (6 Suits)\",\"options\":{\"numPlayers\":3,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Light Pink \\u0026 Cocoa Rainbow (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":83,\"players\":[\"newsun\",\"newduke\",\"Cadenza\"],\"spectators\":[{\"name\":\"submachine\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"},{\"name\":\"Gromzadira\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}],\"maxPlayers\":5}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":90917,\"name\":\"Gromzadira\",\"status\":3,\"tableID\":14583,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15030,\"name\":\"Shauna anxiously daffier (#2)\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":2,\"owned\":true,\"running\":true,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":0,\"players\":[\"will-bot1\",\"njha\"],\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "spectators {\"tableID\":15030,\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}]}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":91466,\"name\":\"ashishla\",\"status\":3,\"tableID\":15030,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "chatTyping {\"tableID\":15030,\"name\":\"ashishla\",\"typing\":true}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":2000,\"name\":\"HuHu\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15024,\"name\":\"veterinarians Bantu gentries (#10) (Game #1141356)\",\"passwordProtected\":true,\"joined\":false,\"numPlayers\":2,\"owned\":false,\"running\":true,\"variant\":\"Rainbow-Fives \\u0026 Dark Pink (6 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Rainbow-Fives \\u0026 Dark Pink (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":true,\"progress\":11,\"players\":[\"HuHu\",\"gsymon\"],\"spectators\":[{\"name\":\"gsymon\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":75662,\"name\":\"gsymon\",\"status\":0,\"tableID\":0,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "tableGone {\"tableID\":15024}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":75662,\"name\":\"gsymon\",\"status\":1,\"tableID\":15031,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":2000,\"name\":\"HuHu\",\"status\":1,\"tableID\":15031,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15031,\"name\":\"veterinarians Bantu gentries (#11)\",\"passwordProtected\":true,\"joined\":false,\"numPlayers\":2,\"owned\":false,\"running\":true,\"variant\":\"Rainbow-Fives \\u0026 Dark Pink (6 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Rainbow-Fives \\u0026 Dark Pink (6 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":false,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":0,\"players\":[\"gsymon\",\"HuHu\"],\"spectators\":[],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":75662,\"name\":\"gsymon\",\"status\":2,\"tableID\":15031,\"hyphenated\":true,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":2000,\"name\":\"HuHu\",\"status\":2,\"tableID\":15031,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "chat {\"msg\":\"Hi, how do I play with bots?\",\"who\":\"ashishla\",\"discord\":false,\"server\":false,\"datetime\":\"2024-04-08T18:56:47.579765711Z\",\"room\":\"table15030\",\"recipient\":\"\"}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":91466,\"name\":\"ashishla\",\"status\":0,\"tableID\":0,\"hyphenated\":false,\"inactive\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "chatTyping {\"tableID\":15030,\"name\":\"ashishla\",\"typing\":false}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15030,\"name\":\"Shauna anxiously daffier (#2)\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":2,\"owned\":true,\"running\":true,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":0,\"players\":[\"will-bot1\",\"njha\"],\"spectators\":[],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "spectators {\"tableID\":15030,\"spectators\":[]}"
+  },
+  {
+    "type": "receive",
+    "data": "table {\"id\":15030,\"name\":\"Shauna anxiously daffier (#2)\",\"passwordProtected\":true,\"joined\":true,\"numPlayers\":2,\"owned\":true,\"running\":true,\"variant\":\"Matryoshka (5 Suits)\",\"options\":{\"numPlayers\":2,\"startingPlayer\":0,\"variantID\":0,\"variantName\":\"Matryoshka (5 Suits)\",\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"speedrun\":true,\"cardCycle\":false,\"deckPlays\":false,\"emptyClues\":false,\"oneExtraCard\":false,\"oneLessCard\":false,\"allOrNothing\":false,\"detrimentalCharacters\":false},\"timed\":false,\"timeBase\":0,\"timePerTurn\":0,\"sharedReplay\":false,\"progress\":0,\"players\":[\"will-bot1\",\"njha\"],\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}],\"maxPlayers\":6}"
+  },
+  {
+    "type": "receive",
+    "data": "spectators {\"tableID\":15030,\"spectators\":[{\"name\":\"ashishla\",\"shadowingPlayerIndex\":-1,\"shadowingPlayerUsername\":\"\"}]}"
+  },
+  {
+    "type": "receive",
+    "data": "user {\"userID\":91466,\"name\":\"ashishla\",\"status\":3,\"tableID\":15030,\"hyphenated\":false,\"inactive\":false}"
+  }
+]
