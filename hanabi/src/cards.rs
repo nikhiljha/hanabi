@@ -4,7 +4,7 @@ use enumflags2::{BitFlag, BitFlags, bitflags};
 use crate::Clue;
 
 #[bitflags(default = Red | Yellow | Green | Blue | Purple)]
-#[repr(u8)]
+#[repr(u16)]
 #[derive(Copy, Clone, Debug, Serialize, Deserialize, Ord, PartialOrd, Eq, PartialEq, Hash)]
 pub enum Suit {
     Red,
@@ -12,6 +12,9 @@ pub enum Suit {
     Green,
     Blue,
     Purple,
+    Rainbow,
+    Black,
+    Pink,
 }
 
 impl TryFrom<&str> for Suit {
@@ -24,20 +27,32 @@ impl TryFrom<&str> for Suit {
             "g" => Ok(Suit::Green),
             "b" => Ok(Suit::Blue),
             "p" => Ok(Suit::Purple),
+            "m" => Ok(Suit::Rainbow),
+            "k" => Ok(Suit::Black),
+            "i" => Ok(Suit::Pink),
             _ => Err(()),
+        }
+    }
+}
+
+impl Into<String> for Suit {
+    fn into(self) -> String {
+        match self {
+            Suit::Red => "r".to_string(),
+            Suit::Yellow => "y".to_string(),
+            Suit::Green => "g".to_string(),
+            Suit::Blue => "b".to_string(),
+            Suit::Purple => "p".to_string(),
+            Suit::Rainbow => "m".to_string(),
+            Suit::Black => "k".to_string(),
+            Suit::Pink => "i".to_string(),
         }
     }
 }
 
 impl Display for Suit {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        match self {
-            Suit::Red => write!(f, "R"),
-            Suit::Yellow => write!(f, "Y"),
-            Suit::Green => write!(f, "G"),
-            Suit::Blue => write!(f, "B"),
-            Suit::Purple => write!(f, "P"),
-        }
+        write!(f, "{}", Into::<String>::into(*self))
     }
 }
 
@@ -147,8 +162,15 @@ impl AnnotatedCard {
 
     fn clue_matches(&self, clue: Clue) -> bool {
         match clue {
-            Clue::Suit(color) => self.suit().eq(&color),
-            Clue::Rank(value) => self.rank().eq(&value),
+            Clue::Suit(color) => match color {
+                Suit::Rainbow => true,
+                Suit::Black => false,
+                _ => self.suit().eq(&color)
+            }
+            Clue::Rank(value) => match self.card.suit {
+                Suit::Pink => true,
+                _ => self.rank().eq(&value)
+            }
         }
     }
 
@@ -160,10 +182,10 @@ impl AnnotatedCard {
     fn update_from_clue(&mut self, clue: Clue) {
         match (clue, self.clue_matches(clue)) {
             (Clue::Suit(color), true) => {
-                self.possible_colors = BitFlags::from(color);
+                self.possible_colors &= BitFlags::from(color) | BitFlags::from(Suit::Rainbow);
             },
             (Clue::Suit(color), false) => {
-                self.possible_colors.remove(color);
+                self.possible_colors &= !(BitFlags::from(color) | BitFlags::from(Suit::Rainbow));
             },
             (Clue::Rank(value), true) => {
                 self.possible_values = BitFlags::from(value);

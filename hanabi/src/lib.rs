@@ -1,17 +1,17 @@
 use std::collections::HashMap;
-use std::fmt::Display;
-use enumflags2::BitFlag;
 use rand::thread_rng;
 use rand::seq::SliceRandom;
 use serde::{Deserialize, Serialize};
 use thiserror::Error;
 use cards::{AnnotatedCard, Card};
 use crate::cards::{Rank, Suit};
+use crate::variants::Variant;
 
 #[cfg(test)]
 mod tests;
 pub mod constants;
 pub mod cards;
+pub mod variants;
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Player {
@@ -102,14 +102,8 @@ pub enum ActError {
 
 impl HanabiGame {
     /// Create a new game of Hanabi with the given players.
-    pub fn new(mut players: Vec<Player>) -> Self {
-        let mut deck = Vec::new();
-        for suit in [Suit::Red, Suit::Yellow, Suit::Green, Suit::Blue, Suit::Purple] {
-            for rank in [Rank::One, Rank::One, Rank::One, Rank::Two, Rank::Two, Rank::Three, Rank::Three, Rank::Four, Rank::Four, Rank::Five] {
-                deck.push(AnnotatedCard::new(Card::new(suit, rank)));
-            }
-        }
-
+    pub fn new(mut players: Vec<Player>, variant: impl Variant) -> Self {
+        let mut deck = variant.starting_deck();
         deck.shuffle(&mut thread_rng());
 
         let num_players = players.len();
@@ -160,11 +154,9 @@ impl HanabiGame {
             },
             Action::Play(card) => {
                 self.play_card(card);
-                self.draw_card(self.current_player);
             },
             Action::Discard(card) => {
                 self.discard_card(card);
-                self.draw_card(self.current_player);
             },
         }
 
@@ -200,6 +192,7 @@ impl HanabiGame {
             self.bomb();
             self.discard_pile.push(card);
         }
+        self.draw_card(self.current_player)
     }
 
     /// Internal function to discard a card from the current player's hand.
@@ -209,6 +202,7 @@ impl HanabiGame {
         let annotated_card = player.hand.remove(card);
         self.clues += 1;
         self.discard_pile.push(annotated_card.card);
+        self.draw_card(self.current_player)
     }
 
     /// Internal function to draw a new card from the deck.

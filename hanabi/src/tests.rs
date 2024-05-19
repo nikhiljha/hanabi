@@ -1,11 +1,12 @@
 use super::*;
 
 fn two_player_game() -> HanabiGame {
+    let variant = variants::NoVariant;
     let players = vec![
         Player::new("Alice".to_string()),
         Player::new("Bob".to_string()),
     ];
-    HanabiGame::new(players)
+    HanabiGame::new(players, variant)
 }
 
 fn any_legal_clue(game: &mut HanabiGame) -> AnnotatedAction {
@@ -13,7 +14,7 @@ fn any_legal_clue(game: &mut HanabiGame) -> AnnotatedAction {
     AnnotatedAction {
         player: game.current_player,
         action: Action::Clue {
-            clue: Clue::Suit(game.players[target].hand[0].card.color),
+            clue: Clue::Suit(game.players[target].hand[0].card.suit()),
             target,
         },
     }

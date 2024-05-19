@@ -2,10 +2,11 @@ use hanabi::{Clue, HanabiGame, Player};
 use hanabi::cards::{Rank, Suit};
 
 fn main() {
+    let variant = hanabi::variants::NoVariant;
     let mut game = HanabiGame::new(vec![
         Player::new("Alice".to_string()),
         Player::new("Bob".to_string()),
-    ]);
+    ], variant);
 
     // get user input in a loop
     loop {
