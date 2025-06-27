@@ -1,6 +1,5 @@
 mod test;
 
-use futures_util::stream::StreamExt;
 use futures_util::{SinkExt, TryStreamExt};
 use hanablive::messages::Message;
 
@@ -39,7 +38,7 @@ async fn main() -> anyhow::Result<()> {
                         room,
                     })).await?;
                 }
-            Some(ref msg) => eprintln!("Unhandled message: {:?}", message),
+            Some(ref _msg) => eprintln!("Unhandled message: {:?}", message),
             _ => (),
         }
     }
