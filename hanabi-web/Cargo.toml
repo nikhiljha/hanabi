@@ -4,20 +4,58 @@ version = "0.1.0"
 authors = ["Nikhil Jha <oss@nikhiljha.com>"]
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib"]
 
 [dependencies]
 serde = { version = "1.0.197", features = ["derive"] }
-dioxus = { version = "0.5.0", features = ["fullstack", "router"] }
 hanabi = { path = "../hanabi" }
 log = "0.4.19"
-dioxus-logger = "0.4.1"
 axum = { version = "0.7.5", features = ["ws", "multipart", "http2", "macros"], optional = true }
 tokio = { version = "1.37.0", features = ["full", "tracing"], optional = true }
 tracing = { version = "0.1.40", optional = true }
 anyhow = "1.0.81"
+tower = { version = "0.4", optional = true }
+tower-http = { version = "0.5", features = ["fs"], optional = true }
+wasm-bindgen = "0.2"
+console_error_panic_hook = "0.1"
+leptos = { version = "0.8.2", features = ["csr", "hydrate", "ssr"] }
+leptos_router = "0.8.2"
+leptos_axum = { version = "0.8.2", optional = true }
 
 [features]
-default = []
-server = ["dioxus/axum", "dep:tokio", "dep:tracing", "dep:axum"]
-web = ["dioxus/web"]
+default = ["csr"]
+csr = []
+hydrate = []
+ssr = [
+
+
+
+    "dep:tokio",
+    "dep:tracing",
+    "dep:axum",
+    "dep:tower",
+    "dep:tower-http",
+]
+leptos_axum = ["dep:leptos_axum"]
+
+
+[[bin]]
+name = "server"
+required-features = ["ssr"]
+
+[package.metadata.leptos]
+output-name = "hanabi-web"
+site-root = "target/site"
+site-pkg-dir = "pkg"
+style-file = "input.css"
+assets-dir = "assets"
+site-addr = "127.0.0.1:3000"
+reload-port = 3001
+browserquery = "defaults"
+watch = false
+env = "DEV"
+bin-features = ["ssr"]
+bin-default-features = false
+lib-features = ["hydrate"]
+lib-default-features = false
