@@ -39,7 +39,7 @@ impl App {
     }
 
     fn handle_input(&mut self, input: String) -> bool {
-        let parts: Vec<&str> = input.trim().split_whitespace().collect();
+        let parts: Vec<&str> = input.split_whitespace().collect();
         if parts.is_empty() {
             return false;
         }
@@ -284,7 +284,7 @@ fn ui(f: &mut Frame, app: &App) {
         )));
         
         let hand_text: Vec<String> = player.hand.iter().enumerate()
-            .map(|(idx, card)| format!("[{}] {}", idx, card.card().to_string()))
+            .map(|(idx, card)| format!("[{}] {}", idx, card.card()))
             .collect();
         player_lines.push(Line::from(Span::styled(
             format!("    {}", hand_text.join(" ")),

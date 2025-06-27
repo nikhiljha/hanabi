@@ -37,6 +37,12 @@ impl Variant for NoVariant {
         Rank::all()
     }
 }
+impl Default for NoVariant {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl NoVariant {
     pub fn new() -> Self {
         Self
@@ -71,6 +77,12 @@ impl Variant for Rainbow6Variant {
         Rank::all()
     }
 }
+impl Default for Rainbow6Variant {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl Rainbow6Variant {
     pub fn new() -> Self {
         Self

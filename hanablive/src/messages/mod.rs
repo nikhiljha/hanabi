@@ -120,12 +120,12 @@ impl Message {
         // Parse the message
         let parts: Vec<&str> = message.splitn(2, ' ').collect();
         let message_type = *parts.first().ok_or(WebsocketParseError::NoMessageType)?;
-        Span::current().record("message_type", &tracing::field::display(message_type));
+        Span::current().record("message_type", tracing::field::display(message_type));
         let message_data = parts
             .get(1)
             // TODO: This silently loses information about whether the message_data was present
             .and_then(|s| serde_json::from_str::<Value>(s).ok());
-        Span::current().record("message_data", &tracing::field::debug(&message_data));
+        Span::current().record("message_data", tracing::field::debug(&message_data));
 
         let serde_tagged_message = match message_data {
             Some(data) => json!({

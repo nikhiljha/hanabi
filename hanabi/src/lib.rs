@@ -180,7 +180,7 @@ impl HanabiGame {
         let player = &mut self.players[self.current_player];
         let annotated_card = player.hand.remove(card);
         let card = annotated_card.card;
-        let stack = self.stacks.entry(card.suit()).or_insert(Vec::new());
+        let stack = self.stacks.entry(card.suit()).or_default();
 
         let top = stack.last().map(|card| card.rank() as usize).unwrap_or(0);
         if top + 1 == card.rank() as usize {
@@ -269,7 +269,7 @@ impl HanabiGame {
         if self.bombs_left == 0 {
             return 0;
         }
-        self.stacks.iter().map(|(_, stack)| stack.len()).sum()
+        self.stacks.values().map(|stack| stack.len()).sum()
     }
 
     /// Get the current player.

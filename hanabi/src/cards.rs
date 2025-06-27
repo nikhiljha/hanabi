@@ -35,9 +35,9 @@ impl TryFrom<&str> for Suit {
     }
 }
 
-impl Into<String> for Suit {
-    fn into(self) -> String {
-        match self {
+impl From<Suit> for String {
+    fn from(val: Suit) -> Self {
+        match val {
             Suit::Red => "r".to_string(),
             Suit::Yellow => "y".to_string(),
             Suit::Green => "g".to_string(),
@@ -52,7 +52,7 @@ impl Into<String> for Suit {
 
 impl Display for Suit {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        write!(f, "{}", Into::<String>::into(*self))
+        write!(f, "{}", String::from(*self))
     }
 }
 
@@ -82,9 +82,9 @@ impl TryFrom<&str> for Rank {
     }
 }
 
-impl Into<usize> for Rank {
-    fn into(self) -> usize {
-        match self {
+impl From<Rank> for usize {
+    fn from(val: Rank) -> Self {
+        match val {
             Rank::One => 1,
             Rank::Two => 2,
             Rank::Three => 3,

@@ -51,7 +51,7 @@ impl Client {
 
     pub async fn login(&mut self, username: &str, password: &str) -> Result<(), ClientError> {
         // POST to /login with username and password in FormData
-        let res = self.client.post(&format!("{}/login", self.base_url))
+        let res = self.client.post(format!("{}/login", self.base_url))
             .form(&[("username", username), ("password", password), ("version", "6356")])
             .send()
             .await?;
@@ -68,7 +68,7 @@ impl Client {
 
     pub async fn connect_ws(&mut self) -> Result<(), ClientError> {
         // GET to /ws with the cookie
-        let res = self.client.get(&format!("{}/ws", self.base_url))
+        let res = self.client.get(format!("{}/ws", self.base_url))
             .header("Cookie", self.cookie.clone().unwrap())
             .upgrade()
             .send()
