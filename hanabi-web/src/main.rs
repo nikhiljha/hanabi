@@ -25,7 +25,7 @@ fn main() {
     ], NoVariant::new());
     let game_ref = Arc::new(RwLock::new(game));
 
-    let vdom_factory = move || {
+    let _vdom_factory = move || {
         let mut vdom = VirtualDom::new(App);
         let game_ref = game_ref.clone();
         vdom.insert_any_root_context(Box::new(move || Box::new(game_ref)));
