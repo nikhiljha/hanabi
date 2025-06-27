@@ -3,12 +3,12 @@
 use anyhow::Result;
 use dioxus::prelude::*;
 use hanabi::{Action, AnnotatedAction, Clue, HanabiGame, Player};
+use hanabi::variants::NoVariant;
 use std::sync::{Arc, RwLock};
 
 #[cfg(all(feature = "server", not(target_arch = "wasm32")))]
 use axum::{Router, ServiceExt};
 
-use dioxus::fullstack::Config;
 
 #[derive(Clone, Routable, Debug, PartialEq)]
 enum Route {
@@ -22,7 +22,7 @@ fn main() {
     let game = HanabiGame::new(vec![
         Player::new("njha".to_string()),
         Player::new("etw".to_string()),
-    ]);
+    ], NoVariant::new());
     let game_ref = Arc::new(RwLock::new(game));
 
     let vdom_factory = move || {
