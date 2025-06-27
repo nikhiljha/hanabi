@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 hanabi = { path = "../hanabi" }
+ratatui = "0.26"
+crossterm = "0.27"
