@@ -7,7 +7,7 @@ use hanabi::variants::NoVariant;
 use std::sync::{Arc, RwLock};
 
 #[cfg(all(feature = "server", not(target_arch = "wasm32")))]
-use axum::{Router, ServiceExt};
+use axum::Router;
 
 
 #[derive(Clone, Routable, Debug, PartialEq)]
@@ -25,7 +25,7 @@ fn main() {
     ], NoVariant::new());
     let game_ref = Arc::new(RwLock::new(game));
 
-    let _vdom_factory = move || {
+    let vdom_factory = move || {
         let mut vdom = VirtualDom::new(App);
         let game_ref = game_ref.clone();
         vdom.insert_any_root_context(Box::new(move || Box::new(game_ref)));
@@ -74,9 +74,7 @@ fn Player(name: String) -> Element {
         .read()
         .unwrap()
         .players()
-        .iter()
-        .map(|p| p.clone())
-        .collect();
+        .to_vec();
 
     rsx! {
         h1 { "Hanabi {count}" }
